@@ -1,51 +1,28 @@
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-share/python-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-MANIFEST
-
-# Virtual environments
+# Python virtual environment
 calc_env/
 venv/
-ENV/
 env/
-.venv/
 
-# IDE
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# IDE files
 .vscode/
 .idea/
 *.swp
 *.swo
-*~
 
-# OS
+# OS files
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 
-# Personal/sensitive data
-*.csv
-*.xlsx
-personal_calculations.py
+# Temporary files
+*.tmp
+*.temp
+
+# Personal documents (keep in docs/ but ignore sensitive files)
+# docs/Payroll_contract.pdf  # Keep this as part of project context
