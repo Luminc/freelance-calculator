@@ -20,8 +20,8 @@ calculation_mode = "rate_based"
 
 # --- JAARSPECIFIEKE PARAMETERS ---
 if CALCULATION_YEAR == 2025:
-    self_employed_deduction_annual = 2470.00
-    starters_deduction_annual = 2123.00
+    self_employed_deduction_annual = 900.00
+    starters_deduction_annual = 0.00
     mkb_profit_exemption_rate = 0.1270
     zvw_rate_freelancer = 0.0526
     zvw_max_income = 75864.00
@@ -69,7 +69,7 @@ else:
 apply_entrepreneurial_deductions_input = True
 desired_freelance_buffer_percentage_input = 0.16
 freelance_aov_monthly_input = 200
-freelance_pension_monthly_input =0
+freelance_pension_monthly_input = 0
 freelance_other_costs_monthly_input = 50
 
 employer_total_cost_factor = 1.32
