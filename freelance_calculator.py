@@ -10,12 +10,13 @@ freelance_hourly_rate_ex_vat_input = 24
 hours_per_month_input = 130
 
 # Scenario 2: Doel netto maandinkomen is de basis
-target_net_disposable_monthly_income_input = 2500.00
+target_net_disposable_monthly_income_input = 2000.00
 
 # Kies welk scenario je wilt draaien:
 # "rate_based" of "target_net_based"
 #calculation_mode = "target_net_based"
-calculation_mode = "rate_based"
+calculation_mode = "target_net_based"
+""
 
 
 # --- JAARSPECIFIEKE PARAMETERS ---
